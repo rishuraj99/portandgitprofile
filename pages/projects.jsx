@@ -23,7 +23,7 @@ const Projects = ({ data }) => {
               display: "flex",
               justifyContent: "space-between",
               border: "2px solid black",
-              padding: "1rem",
+              padding: "2rem",
               alignItems: "center",
             }}
           >
@@ -35,6 +35,7 @@ const Projects = ({ data }) => {
                   color:'black'
                 }}
               >
+
                 <FolderIcon /> <span>{el.name}</span>
               </div>
               <p>{el.description}</p>

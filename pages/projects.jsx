@@ -51,7 +51,7 @@ const Projects = ({ data }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   // Fetch data from external API
   const res = await fetch(
     `GET https://api.github.com/search/repositories?q=user:rishuraj99+fork:true&sort=updated&per_page=10&type=Repositories`

@@ -33,13 +33,13 @@ export default function Home({ maindata, secondData }) {
             padding: "1rem",
           }}
         >
-         <img
-            style={{ borderRadius: "50%" }}
-            width={"150px"}
-            height={"150px"}
+          <Image
             src="https://avatars.githubusercontent.com/u/108001922?v=4"
-            alt=""
+            height={100}
+            width={100}
+           
           />
+         
           <h2> {secondData.name}</h2>
           <p> {secondData.bio}</p>
           <Link href="https://drive.google.com/file/d/1LP5TIv6yoBAK4VLmNmEg3riQoujuoRQA/view?usp=sharing">
@@ -70,7 +70,7 @@ export default function Home({ maindata, secondData }) {
         <div
           style={{
             gap: "5px",
-            padding: "1rem",
+            padding: "2rem",
           }}
         >
           <Experience />
